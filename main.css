@@ -1,0 +1,76 @@
+/* Middle of page banner */
+.main-banner {
+	
+	text-align: center;
+	clear: both;
+	vertical-align: middle;
+	margin: auto;
+	margin: 180px;
+}
+img {
+	width: 300px;
+	height: 100px;
+}
+form input {
+	width: 700px;
+	height: 50px;
+	border: 1px solid #ccc;
+	margin: 25px;
+}
+button {
+	background-color: #eee;
+	border: 0px solid #ccc;
+	border-radius: 1px;
+	margin: 20px 5px;
+	padding: 15px;
+	font-size: 1em;
+	font-weight: bold;
+	width: 180px;
+
+}
+/* horizontal navigation bar */
+ul{
+	 overflow: auto;
+	 list-style: none;
+	 text-decoration: none;
+}
+.hor-nav-bar li {
+	padding: 25px 15px 0 0;
+	float: right;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+footer {
+	border-top: 1px solid #ccc;
+	background-color: #eee;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+}
+
+footer li {
+
+	padding: 24px;
+}
+#left-side-nav li{
+	float: left;
+	
+}
+#left-side-nav li:nth-last-child(-n+3) {
+	float: right;
+}
+* {
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
