@@ -1,5 +1,3 @@
 # google
-hompage
-hello this is my practice page
-hello
+google homepage clone
 
